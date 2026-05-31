@@ -1,0 +1,22 @@
+@media (max-width: 1099px){
+
+}
+
+nav{
+    display: block;
+    height: auto;
+    padding: 20px;
+}
+ul{
+    display: none;
+    text-align: center;
+}
+.ham{
+    display: block; 
+    position: absolute; 
+    right: 5%; 
+    top: 5%;
+    filter: invert(100%);
+    cursor: pointer;
+}
+.ultoggle{display: block; transition: 0.6s ease;}
