@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popravi.to</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link href="img/favicon.png" >
+</head>
+<body>
+
+    <nav>
+        <h1>Popravi<span style="color: #99bfe1;">.to</span></h1>
+
+        <ul>
+            <li><a href="#"><span style="color: #000;">Prijavite Problem</span> </a></li>
+            <li><a href="#">Prijavite se</a></li>
+            <li><a href="#">Sve prijave </a></li>
+            <li><a href="#"> Lokalna upozorenja </a></li>
+            <li><a href="#">Pomoc</a></li>
+            <li><a href="#">Podrska korisnika</a></li>
+        </ul>
+    </nav>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+!!!!!!!!!!!!!!!1
+CSSS
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    color: #fff;
+}
+
+nav {
+    background-color: #1a4f7f;
+    max-width: 1500px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+    padding: 0px 20px 0px 20px;
+    border-radius: 40px;
+    height: 10vh;
+}
+nav h1{
+    font-size: 2.2rem;
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style-type: none;
+    padding: 20px;
+    transition: 0.6s ease-in-out;
+}
+ul li:hover{
+    background-color: #041d35;
+    border-radius: 20px;
+}
+ul li a{
+    text-decoration: none;
+}
