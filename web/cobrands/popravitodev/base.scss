@@ -1496,6 +1496,8 @@ textarea.form-error {
 .report-details .report-title {
 	display: flex;
 	justify-content: space-between;
+
+
 }
 
 .update-link {
@@ -1541,7 +1543,7 @@ textarea.form-error {
 }
 
 .issue-details-container {
-	margin-top: 440px;
+	//margin-top: 440px;
 }
 
 .report-details-container-update {
@@ -2218,11 +2220,11 @@ html.js #map .noscript {
 }
 
 .report-details-container #map_box {
-	position: absolute;
-	top: 230px;
-	width: 100%;
-	left: 0;
-	height: 330px;
+    position: absolute;
+    top: 132px;
+    width: 100%;
+    left: 0;
+    height: 330px;
 }
 
 .report-title input {
@@ -2690,7 +2692,10 @@ fieldset {
 	.with-bullets > li:first-child {
 		padding: 0 1.5rem 0 1.5rem;
 	}
-	   
+
+    .report-details .problem-header .report-title {
+    margin-top: 400px;
+    }
 }
 
 //#146
@@ -2698,7 +2703,7 @@ fieldset {
 	.shadow-wrap {
 	width: 100%;
 	position: absolute;
-	top: 570px;
+	top: 470px;
 	font-size: 0.75em;
 	left: 0px;
 	height: 50px;
